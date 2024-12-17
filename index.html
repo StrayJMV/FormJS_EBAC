@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio EBAC - JS</title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+    <div class="container">
+        <form id="formulario">
+            <h1>Formulário HTML/JS</h1>
+            <br>
+            <br>
+            <div id="texto_01" style="margin-left: 21%;">
+                Preencha valores para comparar os Campos "A" e "B"
+            </div>
+            <input type="number" id="campoA" required placeholder="Defina o valor Campo A" />
+            <p class="erro" style="margin-left: 18%;">
+                Valor do Campo B dever ser maior que o valor do Campo A
+            </p>
+            <input type="number" id="campoB" required placeholder="Defina o valor Campo B" />
+            <button type="submit" id="botao">Comparar</button>
+        </form>
+        <p class="resultado_certo"></p>
+        <p class="resultado_erro"></p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
